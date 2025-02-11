@@ -1,0 +1,19 @@
+{
+  "name": "test-ci-npm",
+  "private": true,
+  "type": "module",
+  "packageManager": "npm@10.9.2",
+  "engines": {
+    "node": ">=20",
+    "npm": ">=10"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "npm",
+      "version": "10.9.2"
+    }
+  },
+  "scripts": {
+    "test": "node --experimental-test-coverage --test test.js"
+  }
+}
